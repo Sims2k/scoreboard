@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+
+body {
+    background: #1B244A;
+}
+
+h3{  
+    margin: 21px;  
+    font-family: 'Inter', sans-serif;
+    color: #EEEEEE;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px 20px;
+}
+
+.home-container, .guest-container, reset-container{
+    display: felx;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score-board{
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.score-board > h2{
+    font-family: 'Seven Segment', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 141%;
+    text-align: center;
+    color: #F94F6D;
+}
+
+
+.count-btn{
+    margin: 20px 5px 0px 0px;
+    width: 45px;
+    height: 45px;
+
+    font-family: 'Seven Segment', sans-serif;
+    color: #9AABD8;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 155%;
+    
+    background: #1B244A;
+    text-align: center;
+    border: solid;
+    border-radius: 4px;  
+}
+
+.reset-container{
+    align-items: stretch;
+}
+
+.reset-btn{
+    font-family: 'Seven Segment', sans-serif;
+    color: #9AABD8;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 155%;
+    
+    background: #1B244A;
+    text-align: center;
+    border: solid;
+    border-radius: 4px; 
+}
